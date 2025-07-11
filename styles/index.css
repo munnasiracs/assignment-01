@@ -29,6 +29,10 @@ body {
     border-radius: 10px;
 }
 
+.btn:hover {
+    background-color: green;
+}
+
 .banner-container {
     margin-top: 158px;
     text-align: center;
@@ -43,6 +47,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 150px;
 }
 
 .stats-container {
@@ -105,13 +110,32 @@ body {
     margin-bottom: 10px;
 }
 
-.contract-section-container{
+.contract-section-container {
     display: flex;
     align-items: center;
     gap: 400px;
     margin-top: 150px;
 }
 
-.flex-grow{
+.flex-grow {
     flex: 1;
+}
+
+.footer-container {
+    margin-top: 150px;
+}
+
+.link-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.bg-img {
+    background-image: url('../images/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
