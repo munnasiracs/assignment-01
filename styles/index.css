@@ -1,0 +1,25 @@
+*{
+    padding: 5px 20px;
+}
+
+
+.bule{
+    color: blue;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
