@@ -80,12 +80,12 @@ body {
 
 .review-card-container {
     background-color: white;
-    padding: 10px 20px;
+    padding: 20px 40px;
     border-radius: 10px;
 
 }
 
-.review-card-image {
+.review-card-image { 
     display: flex;
     align-items: center;
     gap: 15px;
